@@ -41,32 +41,6 @@
 		49C81D581B915867004CD2F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C81D561B915867004CD2F9 /* LaunchScreen.storyboard */; };
 		49C81D631B915867004CD2F9 /* ReplicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D621B915867004CD2F9 /* ReplicatorTests.m */; };
 		49C81D6E1B915867004CD2F9 /* ReplicatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D6D1B915867004CD2F9 /* ReplicatorUITests.m */; };
-		49C81DB51B9158C6004CD2F9 /* AGKCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D801B9158C6004CD2F9 /* AGKCorner.m */; };
-		49C81DB61B9158C6004CD2F9 /* AGKLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D821B9158C6004CD2F9 /* AGKLine.m */; };
-		49C81DB71B9158C6004CD2F9 /* AGKMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D841B9158C6004CD2F9 /* AGKMath.m */; };
-		49C81DB81B9158C6004CD2F9 /* AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D861B9158C6004CD2F9 /* AGKQuad.m */; };
-		49C81DB91B9158C6004CD2F9 /* AGKVector3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D881B9158C6004CD2F9 /* AGKVector3D.m */; };
-		49C81DBA1B9158C6004CD2F9 /* AGKMatrix+AGKVector3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D8C1B9158C6004CD2F9 /* AGKMatrix+AGKVector3D.m */; };
-		49C81DBB1B9158C6004CD2F9 /* AGKMatrix+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D8E1B9158C6004CD2F9 /* AGKMatrix+CATransform3D.m */; };
-		49C81DBC1B9158C6004CD2F9 /* AGKMatrix+GLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D901B9158C6004CD2F9 /* AGKMatrix+GLKit.m */; };
-		49C81DBD1B9158C6004CD2F9 /* CALayer+AGK+Methods.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D921B9158C6004CD2F9 /* CALayer+AGK+Methods.m */; };
-		49C81DBE1B9158C6004CD2F9 /* CALayer+AGK+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D941B9158C6004CD2F9 /* CALayer+AGK+Properties.m */; };
-		49C81DBF1B9158C6004CD2F9 /* CALayer+AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D961B9158C6004CD2F9 /* CALayer+AGKQuad.m */; };
-		49C81DC01B9158C6004CD2F9 /* NSValue+AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D981B9158C6004CD2F9 /* NSValue+AGKQuad.m */; };
-		49C81DC11B9158C6004CD2F9 /* UIBezierPath+AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D9A1B9158C6004CD2F9 /* UIBezierPath+AGKQuad.m */; };
-		49C81DC21B9158C6004CD2F9 /* UIImage+AGK+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D9C1B9158C6004CD2F9 /* UIImage+AGK+CATransform3D.m */; };
-		49C81DC31B9158C6004CD2F9 /* UIImage+AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81D9E1B9158C6004CD2F9 /* UIImage+AGKQuad.m */; };
-		49C81DC41B9158C6004CD2F9 /* UIScrollView+AGK+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81DA01B9158C6004CD2F9 /* UIScrollView+AGK+Properties.m */; };
-		49C81DC51B9158C6004CD2F9 /* UIView+AGK+AngleConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81DA21B9158C6004CD2F9 /* UIView+AGK+AngleConverter.m */; };
-		49C81DC61B9158C6004CD2F9 /* UIView+AGK+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81DA41B9158C6004CD2F9 /* UIView+AGK+Properties.m */; };
-		49C81DC71B9158C6004CD2F9 /* AGKCALayerAnimationBlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81DA81B9158C6004CD2F9 /* AGKCALayerAnimationBlockDelegate.m */; };
-		49C81DC81B9158C6004CD2F9 /* AGKMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81DAA1B9158C6004CD2F9 /* AGKMatrix.m */; };
-		49C81DC91B9158C6004CD2F9 /* AGKTransformPixelMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81DAC1B9158C6004CD2F9 /* AGKTransformPixelMapper.m */; };
-		49C81DCA1B9158C6004CD2F9 /* CGGeometry+AGGeometryKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81DB01B9158C6004CD2F9 /* CGGeometry+AGGeometryKit.m */; };
-		49C81DCB1B9158C6004CD2F9 /* CGImageRef+AGK+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81DB21B9158C6004CD2F9 /* CGImageRef+AGK+CATransform3D.m */; };
-		49C81DCC1B9158C6004CD2F9 /* POPAnimatableProperty+AGGeometryKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C81DB41B9158C6004CD2F9 /* POPAnimatableProperty+AGGeometryKit.m */; };
-		49C81E701B915E5D004CD2F9 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C81E691B915E50004CD2F9 /* pop.framework */; };
-		49C81E711B915E5D004CD2F9 /* pop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 49C81E691B915E50004CD2F9 /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,48 +58,6 @@
 			remoteGlobalIDString = 49C81D441B915866004CD2F9;
 			remoteInfo = Replicator;
 		};
-		49C81E661B915E50004CD2F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49C81E5E1B915E50004CD2F9 /* pop.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EC191218162FB53A00E0CC76;
-			remoteInfo = "pop-ios-static";
-		};
-		49C81E681B915E50004CD2F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49C81E5E1B915E50004CD2F9 /* pop.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0B6BE74819FFD3B900762101;
-			remoteInfo = "pop-ios-framework";
-		};
-		49C81E6A1B915E50004CD2F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49C81E5E1B915E50004CD2F9 /* pop.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EC68857F18C7B60000C6194C;
-			remoteInfo = "pop-osx-framework";
-		};
-		49C81E6C1B915E50004CD2F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49C81E5E1B915E50004CD2F9 /* pop.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = ECF01ED318C92B7F009E0AD1;
-			remoteInfo = "pop-tests-ios";
-		};
-		49C81E6E1B915E50004CD2F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49C81E5E1B915E50004CD2F9 /* pop.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EC7E319918C93D6500B38170;
-			remoteInfo = "pop-tests-osx";
-		};
-		49C81E721B915E5D004CD2F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49C81E5E1B915E50004CD2F9 /* pop.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0B6BE74719FFD3B900762101;
-			remoteInfo = "pop-ios-framework";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -135,7 +67,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				49C81E711B915E5D004CD2F9 /* pop.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,61 +147,6 @@
 		49C81D691B915867004CD2F9 /* ReplicatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplicatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C81D6D1B915867004CD2F9 /* ReplicatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorUITests.m; sourceTree = "<group>"; };
 		49C81D6F1B915867004CD2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49C81D7C1B9158C6004CD2F9 /* AGGeometryKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGGeometryKit-Prefix.pch"; sourceTree = "<group>"; };
-		49C81D7D1B9158C6004CD2F9 /* AGGeometryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGGeometryKit.h; sourceTree = "<group>"; };
-		49C81D7E1B9158C6004CD2F9 /* AGKBitOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKBitOperations.h; sourceTree = "<group>"; };
-		49C81D7F1B9158C6004CD2F9 /* AGKCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKCorner.h; sourceTree = "<group>"; };
-		49C81D801B9158C6004CD2F9 /* AGKCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKCorner.m; sourceTree = "<group>"; };
-		49C81D811B9158C6004CD2F9 /* AGKLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKLine.h; sourceTree = "<group>"; };
-		49C81D821B9158C6004CD2F9 /* AGKLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKLine.m; sourceTree = "<group>"; };
-		49C81D831B9158C6004CD2F9 /* AGKMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKMath.h; sourceTree = "<group>"; };
-		49C81D841B9158C6004CD2F9 /* AGKMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKMath.m; sourceTree = "<group>"; };
-		49C81D851B9158C6004CD2F9 /* AGKQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKQuad.h; sourceTree = "<group>"; };
-		49C81D861B9158C6004CD2F9 /* AGKQuad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKQuad.m; sourceTree = "<group>"; };
-		49C81D871B9158C6004CD2F9 /* AGKVector3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKVector3D.h; sourceTree = "<group>"; };
-		49C81D881B9158C6004CD2F9 /* AGKVector3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKVector3D.m; sourceTree = "<group>"; };
-		49C81D8A1B9158C6004CD2F9 /* AGGeometryKitCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGGeometryKitCategories.h; sourceTree = "<group>"; };
-		49C81D8B1B9158C6004CD2F9 /* AGKMatrix+AGKVector3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGKMatrix+AGKVector3D.h"; sourceTree = "<group>"; };
-		49C81D8C1B9158C6004CD2F9 /* AGKMatrix+AGKVector3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGKMatrix+AGKVector3D.m"; sourceTree = "<group>"; };
-		49C81D8D1B9158C6004CD2F9 /* AGKMatrix+CATransform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGKMatrix+CATransform3D.h"; sourceTree = "<group>"; };
-		49C81D8E1B9158C6004CD2F9 /* AGKMatrix+CATransform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGKMatrix+CATransform3D.m"; sourceTree = "<group>"; };
-		49C81D8F1B9158C6004CD2F9 /* AGKMatrix+GLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGKMatrix+GLKit.h"; sourceTree = "<group>"; };
-		49C81D901B9158C6004CD2F9 /* AGKMatrix+GLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGKMatrix+GLKit.m"; sourceTree = "<group>"; };
-		49C81D911B9158C6004CD2F9 /* CALayer+AGK+Methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+AGK+Methods.h"; sourceTree = "<group>"; };
-		49C81D921B9158C6004CD2F9 /* CALayer+AGK+Methods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+AGK+Methods.m"; sourceTree = "<group>"; };
-		49C81D931B9158C6004CD2F9 /* CALayer+AGK+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+AGK+Properties.h"; sourceTree = "<group>"; };
-		49C81D941B9158C6004CD2F9 /* CALayer+AGK+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+AGK+Properties.m"; sourceTree = "<group>"; };
-		49C81D951B9158C6004CD2F9 /* CALayer+AGKQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+AGKQuad.h"; sourceTree = "<group>"; };
-		49C81D961B9158C6004CD2F9 /* CALayer+AGKQuad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+AGKQuad.m"; sourceTree = "<group>"; };
-		49C81D971B9158C6004CD2F9 /* NSValue+AGKQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+AGKQuad.h"; sourceTree = "<group>"; };
-		49C81D981B9158C6004CD2F9 /* NSValue+AGKQuad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+AGKQuad.m"; sourceTree = "<group>"; };
-		49C81D991B9158C6004CD2F9 /* UIBezierPath+AGKQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+AGKQuad.h"; sourceTree = "<group>"; };
-		49C81D9A1B9158C6004CD2F9 /* UIBezierPath+AGKQuad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+AGKQuad.m"; sourceTree = "<group>"; };
-		49C81D9B1B9158C6004CD2F9 /* UIImage+AGK+CATransform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AGK+CATransform3D.h"; sourceTree = "<group>"; };
-		49C81D9C1B9158C6004CD2F9 /* UIImage+AGK+CATransform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AGK+CATransform3D.m"; sourceTree = "<group>"; };
-		49C81D9D1B9158C6004CD2F9 /* UIImage+AGKQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AGKQuad.h"; sourceTree = "<group>"; };
-		49C81D9E1B9158C6004CD2F9 /* UIImage+AGKQuad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AGKQuad.m"; sourceTree = "<group>"; };
-		49C81D9F1B9158C6004CD2F9 /* UIScrollView+AGK+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+AGK+Properties.h"; sourceTree = "<group>"; };
-		49C81DA01B9158C6004CD2F9 /* UIScrollView+AGK+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+AGK+Properties.m"; sourceTree = "<group>"; };
-		49C81DA11B9158C6004CD2F9 /* UIView+AGK+AngleConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AGK+AngleConverter.h"; sourceTree = "<group>"; };
-		49C81DA21B9158C6004CD2F9 /* UIView+AGK+AngleConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AGK+AngleConverter.m"; sourceTree = "<group>"; };
-		49C81DA31B9158C6004CD2F9 /* UIView+AGK+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AGK+Properties.h"; sourceTree = "<group>"; };
-		49C81DA41B9158C6004CD2F9 /* UIView+AGK+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AGK+Properties.m"; sourceTree = "<group>"; };
-		49C81DA61B9158C6004CD2F9 /* AGGeometryKitClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGGeometryKitClasses.h; sourceTree = "<group>"; };
-		49C81DA71B9158C6004CD2F9 /* AGKCALayerAnimationBlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKCALayerAnimationBlockDelegate.h; sourceTree = "<group>"; };
-		49C81DA81B9158C6004CD2F9 /* AGKCALayerAnimationBlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKCALayerAnimationBlockDelegate.m; sourceTree = "<group>"; };
-		49C81DA91B9158C6004CD2F9 /* AGKMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKMatrix.h; sourceTree = "<group>"; };
-		49C81DAA1B9158C6004CD2F9 /* AGKMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKMatrix.m; sourceTree = "<group>"; };
-		49C81DAB1B9158C6004CD2F9 /* AGKTransformPixelMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKTransformPixelMapper.h; sourceTree = "<group>"; };
-		49C81DAC1B9158C6004CD2F9 /* AGKTransformPixelMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKTransformPixelMapper.m; sourceTree = "<group>"; };
-		49C81DAE1B9158C6004CD2F9 /* AGGeometryKitCoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGGeometryKitCoreGraphics.h; sourceTree = "<group>"; };
-		49C81DAF1B9158C6004CD2F9 /* CGGeometry+AGGeometryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+AGGeometryKit.h"; sourceTree = "<group>"; };
-		49C81DB01B9158C6004CD2F9 /* CGGeometry+AGGeometryKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+AGGeometryKit.m"; sourceTree = "<group>"; };
-		49C81DB11B9158C6004CD2F9 /* CGImageRef+AGK+CATransform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGImageRef+AGK+CATransform3D.h"; sourceTree = "<group>"; };
-		49C81DB21B9158C6004CD2F9 /* CGImageRef+AGK+CATransform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGImageRef+AGK+CATransform3D.m"; sourceTree = "<group>"; };
-		49C81DB31B9158C6004CD2F9 /* POPAnimatableProperty+AGGeometryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "POPAnimatableProperty+AGGeometryKit.h"; sourceTree = "<group>"; };
-		49C81DB41B9158C6004CD2F9 /* POPAnimatableProperty+AGGeometryKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "POPAnimatableProperty+AGGeometryKit.m"; sourceTree = "<group>"; };
-		49C81E5E1B915E50004CD2F9 /* pop.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pop.xcodeproj; path = "../../../Downloads/pop-master-2/pop.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,7 +154,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49C81E701B915E5D004CD2F9 /* pop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +253,6 @@
 				49C81D611B915867004CD2F9 /* ReplicatorTests */,
 				49C81D6C1B915867004CD2F9 /* ReplicatorUITests */,
 				49C81D461B915866004CD2F9 /* Products */,
-				49C81E5E1B915E50004CD2F9 /* pop.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -396,7 +270,6 @@
 			isa = PBXGroup;
 			children = (
 				493538A61CD85B390071E524 /* JDMUtility */,
-				49C81D7B1B9158C6004CD2F9 /* AGGeometryKit */,
 				49C81D4B1B915866004CD2F9 /* AppDelegate.h */,
 				49C81D4C1B915866004CD2F9 /* AppDelegate.m */,
 				49C81D4E1B915866004CD2F9 /* ViewController.h */,
@@ -436,104 +309,6 @@
 			path = ReplicatorUITests;
 			sourceTree = "<group>";
 		};
-		49C81D7B1B9158C6004CD2F9 /* AGGeometryKit */ = {
-			isa = PBXGroup;
-			children = (
-				49C81D7C1B9158C6004CD2F9 /* AGGeometryKit-Prefix.pch */,
-				49C81D7D1B9158C6004CD2F9 /* AGGeometryKit.h */,
-				49C81D7E1B9158C6004CD2F9 /* AGKBitOperations.h */,
-				49C81D7F1B9158C6004CD2F9 /* AGKCorner.h */,
-				49C81D801B9158C6004CD2F9 /* AGKCorner.m */,
-				49C81D811B9158C6004CD2F9 /* AGKLine.h */,
-				49C81D821B9158C6004CD2F9 /* AGKLine.m */,
-				49C81D831B9158C6004CD2F9 /* AGKMath.h */,
-				49C81D841B9158C6004CD2F9 /* AGKMath.m */,
-				49C81D851B9158C6004CD2F9 /* AGKQuad.h */,
-				49C81D861B9158C6004CD2F9 /* AGKQuad.m */,
-				49C81D871B9158C6004CD2F9 /* AGKVector3D.h */,
-				49C81D881B9158C6004CD2F9 /* AGKVector3D.m */,
-				49C81D891B9158C6004CD2F9 /* Categories */,
-				49C81DA51B9158C6004CD2F9 /* Classes */,
-				49C81DAD1B9158C6004CD2F9 /* CoreGraphics_Extensions */,
-				49C81DB31B9158C6004CD2F9 /* POPAnimatableProperty+AGGeometryKit.h */,
-				49C81DB41B9158C6004CD2F9 /* POPAnimatableProperty+AGGeometryKit.m */,
-			);
-			name = AGGeometryKit;
-			path = ../../../classes/AGGeometryKit;
-			sourceTree = "<group>";
-		};
-		49C81D891B9158C6004CD2F9 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				49C81D8A1B9158C6004CD2F9 /* AGGeometryKitCategories.h */,
-				49C81D8B1B9158C6004CD2F9 /* AGKMatrix+AGKVector3D.h */,
-				49C81D8C1B9158C6004CD2F9 /* AGKMatrix+AGKVector3D.m */,
-				49C81D8D1B9158C6004CD2F9 /* AGKMatrix+CATransform3D.h */,
-				49C81D8E1B9158C6004CD2F9 /* AGKMatrix+CATransform3D.m */,
-				49C81D8F1B9158C6004CD2F9 /* AGKMatrix+GLKit.h */,
-				49C81D901B9158C6004CD2F9 /* AGKMatrix+GLKit.m */,
-				49C81D911B9158C6004CD2F9 /* CALayer+AGK+Methods.h */,
-				49C81D921B9158C6004CD2F9 /* CALayer+AGK+Methods.m */,
-				49C81D931B9158C6004CD2F9 /* CALayer+AGK+Properties.h */,
-				49C81D941B9158C6004CD2F9 /* CALayer+AGK+Properties.m */,
-				49C81D951B9158C6004CD2F9 /* CALayer+AGKQuad.h */,
-				49C81D961B9158C6004CD2F9 /* CALayer+AGKQuad.m */,
-				49C81D971B9158C6004CD2F9 /* NSValue+AGKQuad.h */,
-				49C81D981B9158C6004CD2F9 /* NSValue+AGKQuad.m */,
-				49C81D991B9158C6004CD2F9 /* UIBezierPath+AGKQuad.h */,
-				49C81D9A1B9158C6004CD2F9 /* UIBezierPath+AGKQuad.m */,
-				49C81D9B1B9158C6004CD2F9 /* UIImage+AGK+CATransform3D.h */,
-				49C81D9C1B9158C6004CD2F9 /* UIImage+AGK+CATransform3D.m */,
-				49C81D9D1B9158C6004CD2F9 /* UIImage+AGKQuad.h */,
-				49C81D9E1B9158C6004CD2F9 /* UIImage+AGKQuad.m */,
-				49C81D9F1B9158C6004CD2F9 /* UIScrollView+AGK+Properties.h */,
-				49C81DA01B9158C6004CD2F9 /* UIScrollView+AGK+Properties.m */,
-				49C81DA11B9158C6004CD2F9 /* UIView+AGK+AngleConverter.h */,
-				49C81DA21B9158C6004CD2F9 /* UIView+AGK+AngleConverter.m */,
-				49C81DA31B9158C6004CD2F9 /* UIView+AGK+Properties.h */,
-				49C81DA41B9158C6004CD2F9 /* UIView+AGK+Properties.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		49C81DA51B9158C6004CD2F9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				49C81DA61B9158C6004CD2F9 /* AGGeometryKitClasses.h */,
-				49C81DA71B9158C6004CD2F9 /* AGKCALayerAnimationBlockDelegate.h */,
-				49C81DA81B9158C6004CD2F9 /* AGKCALayerAnimationBlockDelegate.m */,
-				49C81DA91B9158C6004CD2F9 /* AGKMatrix.h */,
-				49C81DAA1B9158C6004CD2F9 /* AGKMatrix.m */,
-				49C81DAB1B9158C6004CD2F9 /* AGKTransformPixelMapper.h */,
-				49C81DAC1B9158C6004CD2F9 /* AGKTransformPixelMapper.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		49C81DAD1B9158C6004CD2F9 /* CoreGraphics_Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				49C81DAE1B9158C6004CD2F9 /* AGGeometryKitCoreGraphics.h */,
-				49C81DAF1B9158C6004CD2F9 /* CGGeometry+AGGeometryKit.h */,
-				49C81DB01B9158C6004CD2F9 /* CGGeometry+AGGeometryKit.m */,
-				49C81DB11B9158C6004CD2F9 /* CGImageRef+AGK+CATransform3D.h */,
-				49C81DB21B9158C6004CD2F9 /* CGImageRef+AGK+CATransform3D.m */,
-			);
-			path = CoreGraphics_Extensions;
-			sourceTree = "<group>";
-		};
-		49C81E5F1B915E50004CD2F9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				49C81E671B915E50004CD2F9 /* libpop.a */,
-				49C81E691B915E50004CD2F9 /* pop.framework */,
-				49C81E6B1B915E50004CD2F9 /* pop.framework */,
-				49C81E6D1B915E50004CD2F9 /* pop-tests.xctest */,
-				49C81E6F1B915E50004CD2F9 /* pop-tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -549,7 +324,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				49C81E731B915E5D004CD2F9 /* PBXTargetDependency */,
 			);
 			name = Replicator;
 			productName = Replicator;
@@ -625,12 +399,6 @@
 			mainGroup = 49C81D3C1B915866004CD2F9;
 			productRefGroup = 49C81D461B915866004CD2F9 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 49C81E5F1B915E50004CD2F9 /* Products */;
-					ProjectRef = 49C81E5E1B915E50004CD2F9 /* pop.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				49C81D441B915866004CD2F9 /* Replicator */,
@@ -639,44 +407,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		49C81E671B915E50004CD2F9 /* libpop.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libpop.a;
-			remoteRef = 49C81E661B915E50004CD2F9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49C81E691B915E50004CD2F9 /* pop.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = pop.framework;
-			remoteRef = 49C81E681B915E50004CD2F9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49C81E6B1B915E50004CD2F9 /* pop.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = pop.framework;
-			remoteRef = 49C81E6A1B915E50004CD2F9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49C81E6D1B915E50004CD2F9 /* pop-tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "pop-tests.xctest";
-			remoteRef = 49C81E6C1B915E50004CD2F9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		49C81E6F1B915E50004CD2F9 /* pop-tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "pop-tests.xctest";
-			remoteRef = 49C81E6E1B915E50004CD2F9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		49C81D431B915866004CD2F9 /* Resources */ = {
@@ -718,51 +448,27 @@
 				493538F01CD85B390071E524 /* _FBTweakDictionaryViewController.m in Sources */,
 				493538E51CD85B390071E524 /* _FBColorUtils.m in Sources */,
 				49C81D501B915866004CD2F9 /* ViewController.m in Sources */,
-				49C81DC41B9158C6004CD2F9 /* UIScrollView+AGK+Properties.m in Sources */,
 				493538F61CD85B390071E524 /* FBTweakShakeWindow.m in Sources */,
-				49C81DC91B9158C6004CD2F9 /* AGKTransformPixelMapper.m in Sources */,
 				493538F91CD85B390071E524 /* JDMGradientLayer.m in Sources */,
-				49C81DCA1B9158C6004CD2F9 /* CGGeometry+AGGeometryKit.m in Sources */,
-				49C81DB71B9158C6004CD2F9 /* AGKMath.m in Sources */,
 				49C81D4D1B915866004CD2F9 /* AppDelegate.m in Sources */,
 				493538E91CD85B390071E524 /* _FBTweakArrayViewController.m in Sources */,
 				493538F51CD85B390071E524 /* FBTweakInline.m in Sources */,
-				49C81DBC1B9158C6004CD2F9 /* AGKMatrix+GLKit.m in Sources */,
 				493538E81CD85B390071E524 /* _FBSliderView.m in Sources */,
-				49C81DC71B9158C6004CD2F9 /* AGKCALayerAnimationBlockDelegate.m in Sources */,
-				49C81DB51B9158C6004CD2F9 /* AGKCorner.m in Sources */,
 				493538E71CD85B390071E524 /* _FBKeyboardManager.m in Sources */,
-				49C81DBA1B9158C6004CD2F9 /* AGKMatrix+AGKVector3D.m in Sources */,
-				49C81DC11B9158C6004CD2F9 /* UIBezierPath+AGKQuad.m in Sources */,
-				49C81DBE1B9158C6004CD2F9 /* CALayer+AGK+Properties.m in Sources */,
 				493538FA1CD85B390071E524 /* SceneKit Additions.m in Sources */,
 				493538E11CD85B390071E524 /* BaseGeometry.m in Sources */,
 				493538EC1CD85B390071E524 /* _FBTweakCollectionViewController.m in Sources */,
 				493538E41CD85B390071E524 /* _FBColorComponentCell.m in Sources */,
 				493538F41CD85B390071E524 /* FBTweakCollection.m in Sources */,
-				49C81DB61B9158C6004CD2F9 /* AGKLine.m in Sources */,
 				493538F81CD85B390071E524 /* FBTweakViewController.m in Sources */,
 				493538EE1CD85B390071E524 /* _FBTweakColorViewControllerHSBDataSource.m in Sources */,
-				49C81DCB1B9158C6004CD2F9 /* CGImageRef+AGK+CATransform3D.m in Sources */,
-				49C81DBB1B9158C6004CD2F9 /* AGKMatrix+CATransform3D.m in Sources */,
-				49C81DC31B9158C6004CD2F9 /* UIImage+AGKQuad.m in Sources */,
 				493538ED1CD85B390071E524 /* _FBTweakColorViewController.m in Sources */,
 				493538EB1CD85B390071E524 /* _FBTweakCategoryViewController.m in Sources */,
-				49C81DB91B9158C6004CD2F9 /* AGKVector3D.m in Sources */,
 				49C81D4A1B915866004CD2F9 /* main.m in Sources */,
-				49C81DC61B9158C6004CD2F9 /* UIView+AGK+Properties.m in Sources */,
 				493538F31CD85B390071E524 /* FBTweakCategory.m in Sources */,
-				49C81DBD1B9158C6004CD2F9 /* CALayer+AGK+Methods.m in Sources */,
 				493538F21CD85B390071E524 /* FBTweak.m in Sources */,
-				49C81DC01B9158C6004CD2F9 /* NSValue+AGKQuad.m in Sources */,
-				49C81DBF1B9158C6004CD2F9 /* CALayer+AGKQuad.m in Sources */,
 				493538EA1CD85B390071E524 /* _FBTweakBindObserver.m in Sources */,
-				49C81DB81B9158C6004CD2F9 /* AGKQuad.m in Sources */,
 				493538E31CD85B390071E524 /* Colours.m in Sources */,
-				49C81DCC1B9158C6004CD2F9 /* POPAnimatableProperty+AGGeometryKit.m in Sources */,
-				49C81DC81B9158C6004CD2F9 /* AGKMatrix.m in Sources */,
-				49C81DC21B9158C6004CD2F9 /* UIImage+AGK+CATransform3D.m in Sources */,
-				49C81DC51B9158C6004CD2F9 /* UIView+AGK+AngleConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,11 +500,6 @@
 			isa = PBXTargetDependency;
 			target = 49C81D441B915866004CD2F9 /* Replicator */;
 			targetProxy = 49C81D6A1B915867004CD2F9 /* PBXContainerItemProxy */;
-		};
-		49C81E731B915E5D004CD2F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "pop-ios-framework";
-			targetProxy = 49C81E721B915E5D004CD2F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

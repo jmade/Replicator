@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "JDMUtility.h"
-#import <pop/POP.h>
 
 
 
@@ -110,84 +109,6 @@
 
 }
 
-
-
-
-//-(void)handlePan:(UIPanGestureRecognizer*)recognizer
-//{
-//    UIView *view = (UIView *)[recognizer view];
-//    CGPoint pointOfTouchInside = [recognizer locationInView:view];
-//    
-//    CGPoint touchAnchor = CGPointClamp_AGK(CGPointConvertToAnchorPoint_AGK(pointOfTouchInside, view.bounds), 0.0, 1.0, 0.0, 1.0);
-//    
-//    for (CAShapeLayer *shapeLayer in _replicatedLayers) {
-//        
-//        AGKQuad desiredQuad = AGKQuadMakeWithCGRect(RectFromShapeLayer(shapeLayer));
-//        
-//        if(recognizer.state != UIGestureRecognizerStateEnded)
-//        {
-//            const CGFloat maxInsetX = 0.06;
-//            const CGFloat maxInsetY = 0.06;
-//            
-//            desiredQuad.tl.x = AGKInterpolate(desiredQuad.tl.x, desiredQuad.tr.x, AGKRemap(touchAnchor.x, 0.0, 1.0, maxInsetX, 0.03));
-//            desiredQuad.tl.y = AGKInterpolate(desiredQuad.tl.y, desiredQuad.bl.y, AGKRemap(touchAnchor.x, 0.0, 1.0, maxInsetY, 0.03));
-//            desiredQuad.tr.x = AGKInterpolate(desiredQuad.tr.x, desiredQuad.tl.x, AGKRemap(touchAnchor.x, 1.0, 0.0, maxInsetX, 0.03));
-//            desiredQuad.tr.y = AGKInterpolate(desiredQuad.tr.y, desiredQuad.br.y, AGKRemap(touchAnchor.x, 1.0, 0.0, maxInsetY, 0.03));
-//            
-////            desiredQuad.bl.x = AGKInterpolate(desiredQuad.bl.x, desiredQuad.br.x, AGKRemap(touchAnchor.y, 1.0, 0.0, maxInsetX, 0.03));
-////            desiredQuad.bl.y = AGKInterpolate(desiredQuad.bl.y, desiredQuad.tr.y, AGKRemap(touchAnchor.y, 1.0, 0.0, maxInsetY, 0.03));
-////            desiredQuad.br.x = AGKInterpolate(desiredQuad.br.x, desiredQuad.bl.x, AGKRemap(touchAnchor.y, 0.0, 1.0, maxInsetX, 0.03));
-////            desiredQuad.br.y = AGKInterpolate(desiredQuad.br.y, desiredQuad.tl.y, AGKRemap(touchAnchor.y, 0.0, 1.0, maxInsetY, 0.03));
-//            
-//            
-//        }
-//        
-//        NSArray *cornersForProperties = @[kPOPLayerAGKQuadTopLeft, kPOPLayerAGKQuadTopRight, kPOPLayerAGKQuadBottomRight, kPOPLayerAGKQuadBottomLeft];
-//        
-//        for(int cornerIndex = 0; cornerIndex < 4; cornerIndex++)
-//        {
-//            NSString *propertyName = cornersForProperties[cornerIndex];
-//            
-//            POPSpringAnimation *anim = [shapeLayer pop_animationForKey:propertyName];
-//            if(anim == nil)
-//            {
-//                anim = [POPSpringAnimation animation];
-//                anim.property = [POPAnimatableProperty AGKPropertyWithName:propertyName];
-//                [shapeLayer pop_addAnimation:anim forKey:propertyName];
-//            }
-//            
-//            anim.springSpeed = 14;
-//            anim.springBounciness = 15;
-//            
-//            switch (cornerIndex) {
-//                case 0:
-//                    anim.toValue = [NSValue valueWithCGPoint:desiredQuad.tl];
-//                    break;
-//                case 1:
-//                    anim.toValue = [NSValue valueWithCGPoint:desiredQuad.tr];
-//                    break;
-//                case 2:
-//                    anim.toValue = [NSValue valueWithCGPoint:desiredQuad.br];
-//                    break;
-//                case 3:
-//                    anim.toValue = [NSValue valueWithCGPoint:desiredQuad.bl];
-//                    break;
-//                default:
-//                    break;
-//            }
-//        }
-//        
-//        
-//    }
-//    
-//    
-//    if (recognizer.state == UIGestureRecognizerStateEnded) {
-//        // do something once gesture ends
-//    }
-//    
-//    
-//    
-//}
 
 -(CALayer*)replicateLayer:(CAShapeLayer*)layerToReplicate toGridOfSize:(SCNVector3)gridSize insideOfLayer:(CALayer*)containerLayer
 {
@@ -680,23 +601,7 @@
     // [form.layer addAnimation:animation forKey:@"shake"];
 }
 
--(POPSpringAnimation*)popRotateAnimation
-{
-    POPSpringAnimation *rotAnim;
-    rotAnim = [POPSpringAnimation animation];
-    // rotAnim.property = [POPAnimatableProperty propertyWithName:kPop];
-    //rotAnim.fromValue = @(-(M_PI * 0.5));
-    rotAnim.toValue = @((M_PI * 0.5));
-    rotAnim.springSpeed = 14;
-    rotAnim.springBounciness = 15;
-    
-    rotAnim.repeatForever = YES;
-    
-    rotAnim.autoreverses = YES;
-    //rotAnim.repeatCount = HUGE_VAL;
-    
-    return rotAnim;
-}
+
 
 
 - (CABasicAnimation *)rotationAnimation
